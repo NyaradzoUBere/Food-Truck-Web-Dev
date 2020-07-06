@@ -45,7 +45,7 @@ main{
 	color: rgb(240, 104, 13);
 	text-shadow: 5px 5px 5px black;
 }
-/*Make list appear across the page. Research how to do this*/
+
 ul{
 	list-style-type: none;
 	text-decoration: none;
@@ -91,7 +91,7 @@ h1{
 	text-shadow: 5px 5px 10px black;
 	letter-spacing: 15px;
 }
-h3{ /*Figure out how to make h3 closer to section title: Resolved*/
+h3{ 
 	font-size: 19px;
 	color: white;
 	letter-spacing: 5px;
