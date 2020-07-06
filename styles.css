@@ -1,0 +1,266 @@
+/*Wallpaper*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* body{
+	background-image: url("fat_palm_trees_background.jpg");;
+	background-size: cover;
+
+} */
+
+body {
+	/* The background image */
+	background-image: url("fat_palm_trees_background.jpg");;
+  
+	/* Set a specified height, or the minimum height for the background image */
+	min-height: 500px;
+  
+	/* Set background image to fixed (don't scroll along with the page) */
+	background-attachment: fixed;
+  
+	/* Center the background image */
+	background-position: center;
+  
+	/* Set the background image to no repeat */
+	background-repeat: no-repeat;
+  
+	/* Scale the background image to be as large as possible */
+	background-size: cover;
+  }
+
+main{
+	margin: 50px 100px;
+}
+.section-1{
+	text-align: center;
+}
+#title{
+	font-size: 80px;
+	letter-spacing: 10px;
+	font-weight: lighter;
+	/* font-family: 'Marker Felt'; */
+	font-family: Comic Sans MS;
+	color: rgb(240, 104, 13);
+	text-shadow: 5px 5px 5px black;
+}
+/*Make list appear across the page. Research how to do this*/
+ul{
+	list-style-type: none;
+	text-decoration: none;
+	align-content: center;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 50px 50px;
+	margin: 5px 5px;
+	font-size: 20px;
+	/* font-family: 'Marker Felt'; */
+	font-family: Comic Sans MS;
+}
+nav ul a:hover {
+	color: rgb(240, 104, 13);
+	margin: 5px 5px;
+	font-weight: bolder;
+}
+.navigation a{
+	text-decoration: none;
+	color: rgb(224, 224, 224);
+	font-weight: lighter;
+	letter-spacing: 3px;
+}
+h1{
+	/* font-family: 'Marker Felt' */
+	font-family: Comic Sans MS;
+}
+/*First Background Image (burger and fries)*/
+.section-2{
+	background-image: url("HomePagePicture.jpeg");
+	background-size: cover;
+	font-family: Comic Sans MS;
+	height: 500px;
+	width: 100%;
+	text-align: center;
+}
+#welcome-message{
+	padding: 150px 150px;
+	font-weight: 50;
+	color:white;
+	text-shadow: 5px 5px 10px black;
+	letter-spacing: 15px;
+}
+h3{ /*Figure out how to make h3 closer to section title: Resolved*/
+	font-size: 19px;
+	color: white;
+	letter-spacing: 5px;
+	font-weight: 80;
+	text-shadow: 5px 5px 5px black;
+	/* font-family: 'Marker Felt' */
+	font-family: Comic Sans MS;
+}
+.section-2 a{
+	/* background: rgb(240, 104, 13); */
+	border: 3px solid rgb(224, 224, 224);
+	border-radius: 3px;
+	color: white;
+	display: inline-block;
+	margin: 10px;
+	padding: 14px;
+	text-decoration: none;
+}
+.section-2 a:hover{
+	background-color: rgb(224, 224, 224);
+	/* background-color: rgb(104, 11, 11); */
+	border: 3px solid rgb(224, 224, 224);
+	/* border: 3px solid rgb(240, 104, 13); */
+	color: rgba(0, 0, 0, 1);
+}
+.section-3 {
+	padding: 50px 150px 50px 150px;
+	/* background-color: rgba(240,104,13,.7); */
+	background-color: rgb(59, 70, 48);
+	height: 600px;
+	width: 100%;
+}
+h2.truck-schedule{
+	color: white;
+	font-size: 60px;
+	letter-spacing: 20px;
+	text-align: center;
+	border: 3px dotted white;
+	/* font-family: 'Marker Felt' */
+	font-family: Comic Sans MS;
+}
+#truck-schedule{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 15px;
+	/* font-family: 'Marker Felt'; */
+	font-family: Comic Sans MS;
+	padding-top: 15px;
+}
+table{
+	padding: 50px 50px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 940px;
+	height: 250px;
+	letter-spacing: 10px;
+}
+.section-3 th{
+	color: rgb(240, 104, 13);
+	font-weight: bolder;
+}
+td{
+	font-weight: bold;
+	color: white;
+}
+h2.gallery{
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	/* font-family: 'Marker Felt'; */
+	font-family: Comic Sans MS;
+	letter-spacing: 20px;
+	border: 3px dotted white;
+}
+#gallery{
+	color: white;
+	font-size: 30px;
+	letter-spacing: 15px;
+	/* font-family: 'Marker Felt'; */
+	font-family: Comic Sans MS;
+	text-align: center;
+	padding-top: 15px;
+}
+input[type=text], select, textarea {
+	width: 50%;
+	padding: 12px;
+	border: 2px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color: rgb(123, 177, 125);
+	color: white;
+	font-weight: bold;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+	font-size: 15px;
+	margin-bottom: 30px;
+  }
+  
+  input[type=submit]:hover {
+	background-color: rgb(11, 129, 11);
+  }
+  label{
+	  color: white;
+  }
+
+  img {
+	  padding: 10px 10px;
+	  background-color: white;
+	  
+  }
+
+
+  .section-5{
+	background-color: rgb(201, 86, 10);
+	text-align: center;
+  }
+  h3.section-5{
+	  font-size: 30px;
+	  margin-bottom: 10px;
+	  letter-spacing: 5px;
+  }
+  h5.section-5{
+	  font-size: 18px;
+	  margin-bottom: 20px;
+	  letter-spacing: 3px;
+	  color: white;
+  }
+  /* #contact{
+	  margin: 30px;
+	  padding: 10px;
+  } */
+
+/*h3.section-5{
+	font-size: 30px;
+	background-color: white;
+	color: rgba(107, 71, 47, 1);
+}
+h5.section-5{
+	font-size: 25px;
+	background-color: white;
+	color: rgb(11, 129, 11);
+}
+*/
+/*Final Section 5
+.section-5 table{
+	text-align: left;
+	font-family: sans-serif;
+	border-collapse: separate;
+	border-spacing: 150px 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+.section-5{
+	background-color: white;
+}
+th{
+	color: rgb(11, 129, 11);
+	font-weight: bolder;
+	text-align: center;
+}
+.section-5 td{
+	color:rgba(240,104,13,.7);
+	font-size: 12px;
+}
+*/
